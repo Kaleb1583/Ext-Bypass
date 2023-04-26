@@ -3,6 +3,7 @@ disable any google extension or management forced extensions
 
 
 # ---------------- For My School ---------------------
+```
 var currentURL = document.location.href;
 if(currentURL == "chrome-extension://gndmhdcefbhlchkhipcnnbkcmicncehk/manifest.json") {
     var examples = ["fgkpjlnpnfhidpnjmfbccefcifcfalhi", "gcjpefhffmcgplgklffgbebganmhffje"];
@@ -37,4 +38,5 @@ if(currentURL == "chrome-extension://gndmhdcefbhlchkhipcnnbkcmicncehk/manifest.j
     alert("you need to go to a chrome extension's manifest.json file!")
     alert("Try: chrome-extension://gndmhdcefbhlchkhipcnnbkcmicncehk/manifest.json")
 }
+```
 #------------------------------------------------------------
